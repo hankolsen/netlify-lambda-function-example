@@ -8,6 +8,8 @@ function resetButtonText() {
   $button.innerHTML = 'Click to Buy! <strong>$10</strong>';
 }
 
+console.log(STRIPE_PUBLISHABLE_KEY);
+
 const handler = StripeCheckout.configure({
   key: STRIPE_PUBLISHABLE_KEY,
   image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
