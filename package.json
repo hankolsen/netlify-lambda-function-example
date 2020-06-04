@@ -10,7 +10,7 @@
     "dotenv": "^5.0.1",
     "stripe": "^5.4.0",
     "toml": "^2.3.3",
-    "uuid": "^3.2.1"
+    "uuid": "^3.4.0"
   },
   "devDependencies": {
     "concurrently": "^3.5.1",
